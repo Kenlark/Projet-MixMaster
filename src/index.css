@@ -481,4 +481,9 @@ a {
     width: 80vw;
     font-weight: 700;
   }
+
+  .input-search {
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+  }
 }

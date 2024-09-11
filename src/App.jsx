@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Starter from "../../06-MixMaster/index.jsx";
+import Starter from "../src/index.jsx";
 
 function App() {
   return (

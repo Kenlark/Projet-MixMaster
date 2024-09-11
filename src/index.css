@@ -468,4 +468,18 @@ a {
   .newsletter-search {
     width: 15rem;
   }
+
+  .sd-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sd-grid img {
+    width: 70vw;
+  }
+
+  .sd-info {
+    width: 80vw;
+    font-weight: 700;
+  }
 }

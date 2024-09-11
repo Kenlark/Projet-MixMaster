@@ -64,30 +64,30 @@ function SingleDrinks() {
         <img src={strDrinkThumb} alt={strDrink} className="single-drink" />
         <div className="sd-info-mb">
           <div className="sd-info">
-            <h5 className="sd-str">
+            <p className="sd-str">
               <span className="sd-info-name">Name :</span>
-              <p>{strDrink}</p>
-            </h5>
-            <h5 className="sd-str">
+              {strDrink}
+            </p>
+            <p className="sd-str">
               <span className="sd-info-name">Category :</span>
-              <p>{strCategory}</p>
-            </h5>
-            <h5 className="sd-str">
+              {strCategory}
+            </p>
+            <p className="sd-str">
               <span className="sd-info-name">Info :</span>
-              <p>{strAlcoholic}</p>
-            </h5>
-            <h5 className="sd-str">
+              {strAlcoholic}
+            </p>
+            <p className="sd-str">
               <span className="sd-info-name">Glass :</span>
-              <p>{strGlass}</p>
-            </h5>
-            <h5 className="sd-str">
-              <span className="sd-info-name">Ingredients :</span>
-              <p>{ingredients ? ingredients : " "}</p>
-            </h5>
-            <h5 className="sd-str">
+              {strGlass}
+            </p>
+            <p className="sd-str">
+              <span className="sd-info-name">Ingredients:</span>
+              {ingredients ? ingredients : " "}
+            </p>
+            <p className="sd-str">
               <span className="sd-info-name">instructions:</span>
-              <p>{strInstructions}</p>
-            </h5>
+              {strInstructions}
+            </p>
           </div>
         </div>
       </div>
